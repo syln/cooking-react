@@ -1,0 +1,43 @@
+{
+  "name": "react-demo",
+  "version": "0.0.0",
+  "description": "a attempt for react",
+  "private": true,
+  "keywords": [
+    ""
+  ],
+  "scripts": {
+    "dev": "cooking watch -p",
+    "dist": "cooking build -p"
+  },
+  "author": "qix",
+  "license": "ISC",
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "cooking": "^1.2.12",
+    "cooking-babel": "^1.0.2",
+    "cooking-less": "^1.0.5",
+    "cooking-lint": "",
+    "cooking-react": "^0.1.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.25.0",
+    "jquery": "^3.1.1",
+    "json-loader": "^0.5.4",
+    "less-loader": "^2.2.3",
+    "postcss": "^5.2.6",
+    "postcss-loader": "^1.2.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
